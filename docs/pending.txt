@@ -1,0 +1,42 @@
+SHOPPING LIST (badge: Shopping) — PENDING WORK, plain-language list
+Last updated: 2026-09-17 (3-Shopping)
+
+This is the "what's still left" list in everyday words. Nothing here
+is urgent.
+
+The items under each heading are numbered so you can point at one.
+Done does not renumber: newest at the top, number 1 on the oldest
+line at the bottom.
+
+
+WHAT'S NEXT
+------------------------------------------------------------------
+4. THE APP STORE.
+3. ITS OWN REPOSITORY.
+2. A SHOPPING PICTURE for the icon. The placeholder is a teal square.
+
+
+PENDING
+------------------------------------------------------------------
+
+
+FACTS
+------------------------------------------------------------------
+1. The source page was Projects/stray apps/shopping.tsx. The live
+   page is Projects/shopping/app/shopping.tsx.
+2. Memory throws those shopping items away on launch. This app
+   keeps them.
+3. A copy that runs on the phone without the Mac is a Release
+   build, from Terminal in the shopping folder, with the phone
+   plugged in.
+
+
+DONE
+------------------------------------------------------------------
+3. FIRST RUN. A Release build is on the iPhone and runs without
+   the Mac. (2-Shopping)
+2. THE SHOPPING PAGE. The stray copy is the app, with the new header:
+   page flip on the left, Mystery's theme button beside + Add on the
+   right, and a small popup to add an item. (1-Shopping)
+1. EXPO HOUSING. Page frame, themes, landscape, and a slim root
+   layout. No reminder machinery. (1-Shopping)
