@@ -15,8 +15,10 @@ Do not invent a home.
 ## The desk — in `docs`
 
 - **`handoff.md`** — the opening read. Where the work stands and
-  what is open. 3-Shopping: own repository and the App Store;
-  2-Shopping is committed; the icon is still a teal square.
+  what is open. 3-Shopping: folder is in Shopping-List; production
+  build submitted; the cart picture is chosen and not yet on the
+  phone; TestFlight and the listing are still open; 2-Shopping is
+  committed.
 - **`handoff-history.md`** — the archive of the handoff. Newest
   sittings at the top. 1-Shopping and 2-Shopping are in it.
 - **`pending.txt`** — Patrick's list.

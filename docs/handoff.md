@@ -9,11 +9,16 @@ A decision is written the moment it is made, in that turn.
 ## Where things stand
 
 **3-Shopping** is to get Shopping List into its own repository and
-onto the App Store. Patrick created the GitHub repository
-Shopping-List (Patrick, 3-Shopping). **2-Shopping** put the app on
-the phone and is committed (Patrick, 3-Shopping). A Release build is on Patrick
-Murphy's iPhone and runs without the Mac. The icon is still a teal
-square.
+onto the App Store. This folder is in the GitHub repository
+Shopping-List (Patrick, 3-Shopping). A production build was made and
+submitted (Patrick, 3-Shopping). TestFlight on the iPhone has not
+been proved yet. Apple would not take the listing name Shopping List
+and used a generated suffix, which can be changed in App Store
+Connect. The shopping picture is a teal cart. The wheels are the
+eyes, and a smile sits under them (Patrick, 3-Shopping). It is not
+on the phone until a new production build. **2-Shopping** put the
+app on the phone and is committed (Patrick, 3-Shopping). A Release
+build is on Patrick Murphy's iPhone and runs without the Mac.
 
 ## Standing rulings
 
@@ -37,5 +42,7 @@ square.
 
 ## What is open in front of it
 
-Own repository. App Store. The icon is a teal square until there is
-a Shopping picture.
+A new production build so the phone and the listing show the cart
+picture. TestFlight proof of the new load. App Store listing: a
+unique store name, screenshots, privacy page, support page, Add for
+Review.
