@@ -16,9 +16,10 @@ Do not invent a home.
 
 - **`handoff.md`** — the opening read. Where the work stands and
   what is open. 3-Shopping: folder is in Shopping-List; production
-  build submitted; the cart picture is chosen and not yet on the
-  phone; TestFlight and the listing are still open; 2-Shopping is
-  committed.
+  build submitted; the cart picture is committed and a second
+  production build is at Apple; TestFlight and the listing are still
+  open; listing name is Shopping, subtitle Shopping List on your
+  phone; 2-Shopping is committed.
 - **`handoff-history.md`** — the archive of the handoff. Newest
   sittings at the top. 1-Shopping and 2-Shopping are in it.
 - **`pending.txt`** — Patrick's list.

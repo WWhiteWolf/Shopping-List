@@ -10,19 +10,22 @@ A decision is written the moment it is made, in that turn.
 
 **3-Shopping** is to get Shopping List into its own repository and
 onto the App Store. This folder is in the GitHub repository
-Shopping-List (Patrick, 3-Shopping). A production build was made and
-submitted (Patrick, 3-Shopping). TestFlight on the iPhone has not
-been proved yet. Apple would not take the listing name Shopping List
-and used a generated suffix, which can be changed in App Store
-Connect. The shopping picture is a teal cart. The wheels are the
-eyes, and a smile sits under them (Patrick, 3-Shopping). It is not
-on the phone until a new production build. **2-Shopping** put the
-app on the phone and is committed (Patrick, 3-Shopping). A Release
-build is on Patrick Murphy's iPhone and runs without the Mac.
+Shopping-List (Patrick, 3-Shopping). A first production build was
+made and submitted, then a second with the cart picture (Patrick,
+3-Shopping). TestFlight on the iPhone has not been proved yet.
+Apple would not take the listing name Shopping List. Connect
+accepted **Shopping**, with the subtitle **Shopping List on your
+phone** (Patrick, 3-Shopping). The shopping picture is a teal cart. The wheels are the eyes, and a
+smile sits under them. That picture is committed (Patrick,
+3-Shopping). **2-Shopping** put the app on the phone and is
+committed (Patrick, 3-Shopping). A Release build is on Patrick
+Murphy's iPhone and runs without the Mac.
 
 ## Standing rulings
 
 - **The name is Shopping List. The badge under the icon is Shopping.**
+  The App Store listing name is **Shopping**. The subtitle is
+  **Shopping List on your phone**.
 - **The housing, the look, and the work match Memory's Shopping List
   page**, except for the header changes named here.
 - **There is no Home.** The left header flips between Shopping and
@@ -42,7 +45,6 @@ build is on Patrick Murphy's iPhone and runs without the Mac.
 
 ## What is open in front of it
 
-A new production build so the phone and the listing show the cart
-picture. TestFlight proof of the new load. App Store listing: a
-unique store name, screenshots, privacy page, support page, Add for
-Review.
+TestFlight proof of the new load, including the cart among the other
+tiles. App Store listing: screenshots, privacy page, support page,
+Add for Review.

@@ -11,10 +11,11 @@ line at the bottom.
 
 WHAT'S NEXT
 ------------------------------------------------------------------
-4. THE APP STORE. The binary is at Apple. TestFlight on the iPhone
-   is not proved yet. A new production build is needed so the cart
-   picture shows. The listing still needs a unique store name,
-   screenshots, a privacy page, a support page, and Add for Review.
+4. THE APP STORE. A second production build with the cart picture is
+   at Apple. TestFlight on the iPhone is not proved yet. The listing
+   name is Shopping, subtitle Shopping List on your phone. It still
+   needs screenshots, a privacy page, a support page, and Add for
+   Review.
 
 
 PENDING
@@ -23,7 +24,9 @@ PENDING
 
 FACTS
 ------------------------------------------------------------------
-5. Apple would not take the listing name Shopping List.
+7. The listing name is Shopping. The subtitle is Shopping List on
+   your phone.
+6. Apple would not take the listing name Shopping List.
 4. The GitHub repository is WWhiteWolf/Shopping-List.
 3. A copy that runs on the phone without the Mac is a Release
    build, from Terminal in the shopping folder, with the phone
@@ -36,8 +39,12 @@ FACTS
 
 DONE
 ------------------------------------------------------------------
+8. LISTING NAME. Shopping, subtitle Shopping List on your phone.
+   Connect accepted it. (3-Shopping)
+7. CART BUILD SUBMITTED. Second production build, with the cart
+   picture, is at Apple. (3-Shopping)
 6. A SHOPPING PICTURE. Teal cart, wheels as eyes, smile under them.
-   Not on the phone until a new production build. (3-Shopping)
+   Committed. (3-Shopping)
 5. PRODUCTION BUILD AND SUBMIT. The binary is at Apple. (3-Shopping)
 4. ITS OWN REPOSITORY. GitHub repository Shopping-List. (3-Shopping)
 3. FIRST RUN. A Release build is on the iPhone and runs without
