@@ -3,6 +3,33 @@
 Newest sittings at the top. Open this when something finished needs
 tracing. The live desk is `handoff.md`.
 
+## 4-Shopping (2026-09-19)
+
+Got the 6.5-inch screenshots into Connect, and Connect took Add for
+Review. Apple has the listing for review. It is not live on the
+store yet.
+
+Xcode 27 had replaced Simulator with Device Hub. The Pods iOS
+version was raised to 15.1 so Xcode 27 would build. Debug from
+Xcode showed that no script URL was provided. A Release run from
+Xcode put Shopping List on the phone. Patrick captured Shopping
+and Inventory there and put those pictures in the 6.5-inch slot.
+Patrick named a first-time opening message for a later build: keep
+the permanent list in Inventory, and use Shopping when you go to
+the store. That message is in the app.
+
+## 3-Shopping (2026-09-17)
+
+Got Shopping List into its own GitHub repository, Shopping-List,
+and sent two production builds to Apple, the second with the cart
+picture. Connect would not take the listing name Shopping List.
+It accepted Shopping, with the subtitle Shopping List on your
+phone. Privacy and support pages were put on elyfont.com. Omaha
+Test Team was copied onto this app. The sitting ended without App
+Store screenshots. The app was no longer on the phone. Expo could
+not find Simulator, because Xcode 27 had replaced it with Device
+Hub.
+
 ## 2-Shopping (2026-09-16)
 
 Put Shopping List on the phone so it runs without the Mac.

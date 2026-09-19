@@ -24,6 +24,8 @@ interface Item {
     status: 'need' | 'stocked';
 }
 
+const FIRST_OPEN_KEY = 'shopping_first_open_seen';
+
 export default function ShoppingScreen() {
     const theme = useTheme();
     const { themeName, setThemeName } = useThemeControls();
@@ -33,16 +35,28 @@ export default function ShoppingScreen() {
     const [items, setItems] = useState<Item[]>([]);
     const [newItem, setNewItem] = useState('');
     const [showAdd, setShowAdd] = useState(false);
+    const [showFirstOpen, setShowFirstOpen] = useState(false);
     const [view, setView] = useState<'inventory' | 'shopping'>('inventory');
     const [selectedId, setSelectedId] = useState<string | null>(null);
 
     useEffect(() => {
         loadItems();
+        loadFirstOpen();
     }, []);
 
     const loadItems = async () => {
         const saved = await AsyncStorage.getItem('shopping_items');
         if (saved) setItems(JSON.parse(saved));
+    };
+
+    const loadFirstOpen = async () => {
+        const seen = await AsyncStorage.getItem(FIRST_OPEN_KEY);
+        if (!seen) setShowFirstOpen(true);
+    };
+
+    const dismissFirstOpen = async () => {
+        setShowFirstOpen(false);
+        await AsyncStorage.setItem(FIRST_OPEN_KEY, '1');
     };
 
     const saveItems = async (updated: Item[]) => {
@@ -204,6 +218,18 @@ export default function ShoppingScreen() {
                 </View>
             )}
             </PageFrame>
+            <Cover visible={showFirstOpen}>
+                <View style={styles.modalOverlay}>
+                    <View style={styles.pickerModal}>
+                        <Text style={styles.firstOpenText}>
+                            Keep your permanent list in Inventory. Use Shopping when you go to the store.
+                        </Text>
+                        <TouchableOpacity style={styles.confirmBtn} onPress={dismissFirstOpen}>
+                            <Text style={styles.confirmBtnText}>OK</Text>
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </Cover>
             <Cover visible={showAdd}>
                 <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={{ flex: 1 }}>
                     <View style={styles.modalOverlay}>
@@ -379,6 +405,12 @@ const makeStyles = (t: Theme) =>
             width: '100%',
         },
         modalTitle: { fontSize: 18, fontWeight: '600', color: t.cardTitle, marginBottom: 10 },
+        firstOpenText: {
+            fontSize: 18,
+            color: t.bodyText,
+            marginBottom: 16,
+            lineHeight: 26,
+        },
         input: {
             borderWidth: 0.5,
             borderColor: t.cardBorder,

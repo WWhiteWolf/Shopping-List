@@ -8,18 +8,14 @@ A decision is written the moment it is made, in that turn.
 
 ## Where things stand
 
-**3-Shopping** is to get Shopping List into its own repository and
-onto the App Store. This folder is in the GitHub repository
-Shopping-List (Patrick, 3-Shopping). A first production build was
-made and submitted, then a second with the cart picture (Patrick,
-3-Shopping). TestFlight on the iPhone has not been proved yet.
-Apple would not take the listing name Shopping List. Connect
-accepted **Shopping**, with the subtitle **Shopping List on your
-phone** (Patrick, 3-Shopping). The shopping picture is a teal cart. The wheels are the eyes, and a
-smile sits under them. That picture is committed (Patrick,
-3-Shopping). **2-Shopping** put the app on the phone and is
-committed (Patrick, 3-Shopping). A Release build is on Patrick
-Murphy's iPhone and runs without the Mac.
+**4-Shopping** put the 6.5-inch screenshots in Connect, and Connect
+took Add for Review (Patrick, 4-Shopping). Apple has the listing
+for review. It is not live on the store yet. **3-Shopping** put
+this folder in the GitHub repository Shopping-List, sent the
+production builds, the cart picture, the listing name Shopping
+with the subtitle Shopping List on your phone, and the privacy
+and support pages (Patrick, 3-Shopping). A Release build is on
+Patrick Murphy's iPhone and runs without the Mac.
 
 ## Standing rulings
 
@@ -38,13 +34,23 @@ Murphy's iPhone and runs without the Mac.
 - **The tab row and the add row do not sit in the list area.** The
   list sits under the header.
 - **A copy that runs on the phone without the Mac is a Release
-  build.** In Terminal, in the shopping folder, with the phone
-  plugged in, the command is npx expo run:ios --configuration
-  Release --device. The same command without Release leaves the
-  pages on the Mac, and the phone shows that it has no script URL.
+  build.** Debug, from Xcode or from expo without Release, leaves
+  the pages on the Mac, and the phone shows that it has no script
+  URL. 4-Shopping put Release on the phone from Xcode: the scheme
+  set to Release, then Run onto the real iPhone. The old Terminal
+  line is npx expo run:ios --configuration Release --device. On
+  Xcode 27 that line still looks for an app named Simulator, which
+  Apple replaced with Device Hub.
+- **Xcode 27 has Device Hub, not Simulator.** Tapping the phone
+  picture in Device Hub is View Screen, not loading. Loading is
+  Xcode Run, aimed at the real iPhone.
+- **For Xcode 27, a Pods iOS version below 15.0 is an error.** The
+  Podfile floor is 15.1.
+- **The first time the app opens, it shows a short message.** Keep
+  your permanent list in Inventory. Use Shopping when you go to the
+  store. It is in the app, for a later load. (Patrick, 4-Shopping)
 
 ## What is open in front of it
 
-TestFlight proof of the new load, including the cart among the other
-tiles. App Store listing: screenshots, privacy page, support page,
-Add for Review.
+Waiting for Apple to accept the review. The listing is not live
+yet.

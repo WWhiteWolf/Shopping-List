@@ -1,5 +1,5 @@
 SHOPPING LIST (badge: Shopping) — PENDING WORK, plain-language list
-Last updated: 2026-09-18 (3-Shopping)
+Last updated: 2026-09-19 (4-Shopping)
 
 This is the "what's still left" list in everyday words. Nothing here
 is urgent.
@@ -11,11 +11,10 @@ line at the bottom.
 
 WHAT'S NEXT
 ------------------------------------------------------------------
-4. THE APP STORE. A second production build with the cart picture is
-   at Apple. TestFlight on the iPhone is not proved yet. The listing
-   name is Shopping, subtitle Shopping List on your phone. It still
-   needs screenshots, a privacy page, a support page, and Add for
-   Review.
+5. FIRST-TIME LOAD. The message is in the app. It is not on the
+   phone yet. (4-Shopping)
+4. WAITING ON APPLE. Add for Review was taken. The listing is not
+   live yet.
 
 
 PENDING
@@ -24,13 +23,14 @@ PENDING
 
 FACTS
 ------------------------------------------------------------------
+8. Add for Review is with Apple. The listing is not live yet.
 7. The listing name is Shopping. The subtitle is Shopping List on
    your phone.
 6. Apple would not take the listing name Shopping List.
 4. The GitHub repository is WWhiteWolf/Shopping-List.
 3. A copy that runs on the phone without the Mac is a Release
-   build, from Terminal in the shopping folder, with the phone
-   plugged in.
+   build. On Xcode 27, that is Run from Xcode with the scheme set
+   to Release, aimed at the real iPhone.
 2. Memory throws those shopping items away on launch. This app
    keeps them.
 1. The source page was Projects/stray apps/shopping.tsx. The live
@@ -39,6 +39,13 @@ FACTS
 
 DONE
 ------------------------------------------------------------------
+11. FIRST-TIME MESSAGE. Keep your permanent list in Inventory. Use
+   Shopping when you go to the store. In the app, for a later load.
+   (4-Shopping)
+10. ADD FOR REVIEW. Connect took it. Apple has the listing for
+   review. (4-Shopping)
+9. SCREENSHOTS. Shopping and Inventory, in the 6.5-inch slot.
+   (4-Shopping)
 8. LISTING NAME. Shopping, subtitle Shopping List on your phone.
    Connect accepted it. (3-Shopping)
 7. CART BUILD SUBMITTED. Second production build, with the cart
