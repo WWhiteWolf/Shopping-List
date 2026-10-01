@@ -1,5 +1,5 @@
 SHOPPING LIST (badge: Shopping) — PENDING WORK, plain-language list
-Last updated: 2026-09-19 (4-Shopping)
+Last updated: 2026-09-24 (4-Shopping)
 
 This is the "what's still left" list in everyday words. Nothing here
 is urgent.
@@ -11,10 +11,10 @@ line at the bottom.
 
 WHAT'S NEXT
 ------------------------------------------------------------------
-5. FIRST-TIME LOAD. The message is in the app. It is not on the
-   phone yet. (4-Shopping)
-4. WAITING ON APPLE. Add for Review was taken. The listing is not
-   live yet.
+5. FIRST-TIME LOAD. The message is in the app. It is not on this
+   TestFlight load. (4-Shopping)
+4. PENDING DEVELOPER RELEASE. Apple accepted it. The listing waits
+   for Patrick to release it. It is not live yet.
 
 
 PENDING
@@ -23,7 +23,10 @@ PENDING
 
 FACTS
 ------------------------------------------------------------------
-8. Add for Review is with Apple. The listing is not live yet.
+9. TestFlight on Patrick's iPhone has Build 2. The cart badge is
+   on it, and this load works.
+8. Apple accepted the review. Connect shows Pending Developer
+   Release. The listing is not live yet.
 7. The listing name is Shopping. The subtitle is Shopping List on
    your phone.
 6. Apple would not take the listing name Shopping List.
@@ -39,6 +42,8 @@ FACTS
 
 DONE
 ------------------------------------------------------------------
+12. TESTFLIGHT PROOF. Build 2 on Patrick's iPhone. Cart badge.
+   This load works. (4-Shopping)
 11. FIRST-TIME MESSAGE. Keep your permanent list in Inventory. Use
    Shopping when you go to the store. In the app, for a later load.
    (4-Shopping)

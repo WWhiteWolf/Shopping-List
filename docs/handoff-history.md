@@ -6,8 +6,7 @@ tracing. The live desk is `handoff.md`.
 ## 4-Shopping (2026-09-19)
 
 Got the 6.5-inch screenshots into Connect, and Connect took Add for
-Review. Apple has the listing for review. It is not live on the
-store yet.
+Review. It is not live on the store yet.
 
 Xcode 27 had replaced Simulator with Device Hub. The Pods iOS
 version was raised to 15.1 so Xcode 27 would build. Debug from
@@ -17,6 +16,10 @@ and Inventory there and put those pictures in the 6.5-inch slot.
 Patrick named a first-time opening message for a later build: keep
 the permanent list in Inventory, and use Shopping when you go to
 the store. That message is in the app.
+
+On 2026-09-24, TestFlight on Patrick's iPhone took Build 2. The
+cart badge is on it, and this load works. Connect shows Pending
+Developer Release. The listing is not live yet.
 
 ## 3-Shopping (2026-09-17)
 

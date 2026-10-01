@@ -9,13 +9,14 @@ A decision is written the moment it is made, in that turn.
 ## Where things stand
 
 **4-Shopping** put the 6.5-inch screenshots in Connect, and Connect
-took Add for Review (Patrick, 4-Shopping). Apple has the listing
-for review. It is not live on the store yet. **3-Shopping** put
-this folder in the GitHub repository Shopping-List, sent the
-production builds, the cart picture, the listing name Shopping
-with the subtitle Shopping List on your phone, and the privacy
-and support pages (Patrick, 3-Shopping). A Release build is on
-Patrick Murphy's iPhone and runs without the Mac.
+took Add for Review (Patrick, 4-Shopping). Apple accepted it.
+Connect shows Pending Developer Release. It is not live on the
+store yet. TestFlight on Patrick's iPhone has Build 2: the cart
+badge is on it, and this load works (Patrick, 4-Shopping).
+**3-Shopping** put this folder in the GitHub repository
+Shopping-List, sent the production builds, the cart picture, the
+listing name Shopping with the subtitle Shopping List on your
+phone, and the privacy and support pages (Patrick, 3-Shopping).
 
 ## Standing rulings
 
@@ -52,5 +53,6 @@ Patrick Murphy's iPhone and runs without the Mac.
 
 ## What is open in front of it
 
-Waiting for Apple to accept the review. The listing is not live
-yet.
+Apple accepted the review. The listing waits for Patrick to
+release it. It is not live yet. The first-time opening message is
+in the app and is not on this TestFlight load.
